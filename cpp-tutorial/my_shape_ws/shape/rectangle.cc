@@ -4,7 +4,7 @@ Rectangle::Rectangle(string color, float width, float height)
     : Shape(color), width(width), height(height) {}
 
 float Rectangle::getC() {
-    return 2 * (width + height);
+    return 2.f * (width + height);
 }
 
 float Rectangle::getS() {

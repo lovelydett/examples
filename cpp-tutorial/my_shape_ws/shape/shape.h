@@ -1,3 +1,6 @@
+#ifndef SHAPE_H
+#define SHAPE_H
+
 #include <string>
 
 #define PI (3.14f)
@@ -14,3 +17,5 @@ public:
     virtual float getC() = 0;
     virtual float getS() = 0;
 };
+
+#endif

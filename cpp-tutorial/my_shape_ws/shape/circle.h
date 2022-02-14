@@ -1,6 +1,9 @@
+#ifndef CIRCLE_H
+#define CIRCLE_H
+
 #include "shape.h"
 
-class Circle : protected Shape {
+class Circle : public Shape {
 private:
     float radius;
 public:
@@ -8,3 +11,5 @@ public:
     float getC() override;
     float getS() override;
 };
+
+#endif
